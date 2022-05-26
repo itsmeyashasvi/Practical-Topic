@@ -1,0 +1,7 @@
+def check(n):
+    return n%2==0
+a=int(input('Enter a number'))
+print(check(a))
+
+
+
