@@ -1,0 +1,10 @@
+def power(a1,b1):
+    powe=1
+    for i in range(0,b1):
+        powe=powe*a1
+    return powe
+a=int(input("Enter value of a"))
+b=int(input("Enter value of b"))
+result=power(a,b)
+print(result)
+
