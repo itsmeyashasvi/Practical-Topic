@@ -1,0 +1,10 @@
+def disp():
+    def show():
+        return "Show function"
+    result=show()+str+"disp Function"
+    return result
+print(disp("Nice"))
+
+
+
+
