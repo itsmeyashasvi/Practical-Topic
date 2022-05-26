@@ -1,0 +1,7 @@
+import numpy as np
+r,c=list(map(int,input().split()))
+list1=list(map(int,input().split()))
+mat=np.array(list1).reshape(r,c)                  
+t=np.ravel(mat)
+trans=t.T
+print(trans)
