@@ -1,0 +1,10 @@
+def rec_area(l,b):
+    return l*b,2*(l+b)
+len=int(input("Enter length of a rectangle"))
+br=int(input("Enter the breadth of a rectangle"))
+out=rec_area(len,br)
+print(out)
+
+
+
+
