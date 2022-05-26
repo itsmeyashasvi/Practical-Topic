@@ -1,0 +1,9 @@
+d={"Course":'Python','Roll_no':44,'Name':'Priya','Branch':'Btech'}
+a=input("Enter a key")
+if a in d.keys():
+    print("Key is print in the dictionary")
+else:
+    print("Key is not present in the dictionary")
+
+
+
