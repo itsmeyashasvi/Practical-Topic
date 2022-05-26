@@ -1,0 +1,10 @@
+def fact(x):
+    s=1
+    for i in range(1,x+1):
+        s*=i
+    return s
+def factorial_map(seq):
+    return{1:fact(i) for i in seq}
+numbers=range(1,11)
+out=factorial_map(numbers)
+print(out)
