@@ -1,0 +1,5 @@
+d={'India':500,'China':700,'Uk':900,'America':10000}
+for x,y in d.items():
+    print(x,y)
+
+
