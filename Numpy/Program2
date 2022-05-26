@@ -1,0 +1,5 @@
+import numpy as np
+a=np.array([102,345,6454,1,2])
+for i in a:                            
+    if i>100:
+        print("greater than 100 is :",i)
