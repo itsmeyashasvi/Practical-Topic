@@ -1,0 +1,4 @@
+import numpy as np
+a=list(map(float,input().split()))     
+b=np.array(a)
+print(a[::-1])
