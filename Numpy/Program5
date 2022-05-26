@@ -1,0 +1,5 @@
+import numpy as np
+r,c=list(map(int,input("enter the row & column size: ").split()))
+list1=list(map(int,input().split()))                                
+mat=np.array(list1).reshape(r,c)
+print(mat)
