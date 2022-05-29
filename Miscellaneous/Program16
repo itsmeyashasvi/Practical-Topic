@@ -1,0 +1,10 @@
+try:
+    a=eval(input("Enter First number"))
+    b=eval(input("Enter Second number"))
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a/b)
+    print(a%b)
+except (NameError,ZeroDivisionError,ArithmeticError,TypeError):
+    print("Exception Raised")
