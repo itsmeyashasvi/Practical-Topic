@@ -1,0 +1,4 @@
+import math as m
+a=-10
+print(m.fabs(a))
+
