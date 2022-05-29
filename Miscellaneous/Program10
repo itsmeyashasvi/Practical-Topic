@@ -1,0 +1,4 @@
+import random as rd
+str=input("Enter a string")
+k=int(input("Enter a size"))
+print(rd.sample(str,k))
