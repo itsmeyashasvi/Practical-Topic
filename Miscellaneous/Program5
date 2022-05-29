@@ -1,0 +1,4 @@
+import math as m
+n=25
+print(m.sqrt(n))
+
