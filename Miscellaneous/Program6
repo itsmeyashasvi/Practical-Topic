@@ -1,0 +1,4 @@
+import random as rd
+mylist=['agra','delhi','mumbai','banglore','lucknow']
+rd.shuffle(mylist)
+print(mylist)
