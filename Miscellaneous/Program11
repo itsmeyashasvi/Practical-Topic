@@ -1,0 +1,7 @@
+a=open("f.txt","w")
+a.write("Hello World")
+a.close()
+a=open("f.txt","r")                 
+data=a.read()
+print(data)
+a.close()'''
