@@ -1,7 +1,7 @@
 d={}
 n=int(input("Enter a value of n"))
 for i in range(0,n):
-    x=int(input("Enetr key"))
+    x=int(input("Enter key"))
     y=int(input("Enter value"))
     d[x]=y
 print(d)
