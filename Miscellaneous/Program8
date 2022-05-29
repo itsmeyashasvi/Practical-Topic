@@ -1,0 +1,5 @@
+import random as rd
+n1=int(input("enter a number"))
+n2=int(input("Enter a number"))
+n=int(input("Enter a step jump"))
+print(rd.randrange(n1,n2))
