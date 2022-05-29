@@ -1,0 +1,4 @@
+with open("f.txt") as g:                    
+    data=g.read().split()        Q-8
+    p=max(data,key=len)
+print(p)'''
