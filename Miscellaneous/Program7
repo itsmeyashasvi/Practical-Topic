@@ -1,0 +1,4 @@
+import random as rd
+n1=int(input("enter a number"))
+n2=int(input("Enter a number"))
+print(rd.randint(n1,n2))
